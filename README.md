@@ -23,3 +23,9 @@ To view bookmarks, navigate to `localhost:3000/bookmarks`	To view bookmarks, nav
 
 
 ### To run tests:	### To run tests:
+
+User Stories:
+
+As a user
+So that I can save websites that I like
+I want to add bookmarks
