@@ -1,5 +1,5 @@
 require 'sinatra/base'
-require './lib/bookmark'
+require_relative './lib/bookmark'
 
 class BookmarkManager < Sinatra::Base 
 
@@ -18,7 +18,6 @@ class BookmarkManager < Sinatra::Base
 
   post '/bookmarks' do 
     Bookmark.create(url: params[:url], title: params[:title])
-    p params
     redirect '/bookmarks'
   end
 
